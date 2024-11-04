@@ -1,5 +1,9 @@
-import Image from "next/image";
+import GridProducts from "@/components/products/grid-products";
 
 export default function Home() {
-  return <main></main>;
+  return (
+    <main>
+      <GridProducts />
+    </main>
+  );
 }
